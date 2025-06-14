@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      nav {
+        background: #f8f8fa; /* Always solid background */
+      }
+
+      button {
+        outline: none;
+        padding: 10px 20px;
+        margin:12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #fff;
+        color: #007bff;
+        border: 2px solid #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Navigation menu -->
+  <!-- Navigation -->
+<nav>
+  <div class="navbar">
+    <div class="logo"><a href="#">Nitin</a></div>
+
+    <ul class="menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn">&#9776;</div>
+    <div class="cancel-btn">&#10005;</div>
+  </div>
+</nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Nitin Sharma</div>
+          <div class="text-three">UI/UX Designer & Web Developer</div>
+        </div>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="web.jpeg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>Hello! I'm Nitin Sharma, a Web Developer and UI/UX Designer...</p>
+            <a href="NITIN-RESUME(WEBDEVELOPER).pdf"  target="_blank">
+              <button>Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+           <div class="boxes">
+            <div class="box"><div class="topic">HTML</div><div class="per">90%</div></div>
+            <div class="box"><div class="topic">CSS</div><div class="per">80%</div></div>
+            <div class="box"><div class="topic">JavaScript</div><div class="per">60%</div></div>
+            <div class="box"><div class="topic">UI/UX</div><div class="per">70%</div></div>
+            <div class="box"><div class="topic">ReactJs</div><div class="per">60%</div></div>
+            <div class="box"><div class="topic">MongoDB</div><div class="per">70%</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="services" id="certificates">
+      <div class="content">
+        <div class="title"><span>My Certificates</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon"><i class="fab fa-google"></i></div>
+            <div class="topic">Flutter & Dart</div>
+            <p>Certified by The Digital Adda for Google Flutter & Dart course.</p>
+            <a href="flutter-1.pdf" target="_blank"><button>Click to View</button></a>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fab fa-github"></i></div>
+            <div class="topic">Git & GitHub</div>
+            <p>Completed Git & GitHub Introduction course in June 2025.</p>
+            <a href="github.pdf" target="_blank"><button>Click to Download</button></a>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="topic">Web Design Workshop</div>
+            <p>Certified by MCTA during the workshop held on 8–9 June 2024.</p>
+            <a href="workshop.pdf" target="_blank"><button>Click to Download</button></a>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-certificate"></i></div>
+            <div class="topic">Great Learning</div>
+            <p>Verified certificate from Great Learning (verifiable online).</p>
+            <a href="greatlearning.pdf" target="_blank"><button>Click to Download</button></a>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fab fa-figma"></i></div>
+            <div class="topic">Figma (UI Design)</div>
+            <p>Completed Introduction to Figma certification in April 2025.</p>
+            <a href="1745583772052figma.pdf" target="_blank"><button>Click to Download</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+   <section class="services" id="projects">
+  <div class="content">
+    <div class="title"><span>My Projects</span></div>
+    <div class="boxes">
+      <div class="box">
+        <img src="calculator.png" alt="Calculator" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+        <div class="topic">Calculator</div>
+        <a href="https://nitin-git07.github.io/Calculator/"><button>Visit Site</button></a>
+      </div>
+      <div class="box">
+        <img src="image.png" alt="Gallery" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+        <div class="topic">Image Gallery</div>
+        <a href="https://nitin-git07.github.io/ImageGallery/"><button>Visit Site</button></a>
+      </div>
+      <div class="box">
+        <img src="qr.png" alt="QR" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+        <div class="topic">QR Generator</div>
+        <a href="https://nitin-git07.github.io/QR-Generator/"><button>Visit Site</button></a>
+      </div>
+      <div class="box">
+        <img src="music.png" alt="Music Player" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+        <div class="topic">Music Player</div>
+        <a href="https://nitin-git07.github.io/MusicPlayer/"><button>Visit Site</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+   <!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+      <p>I'd love to hear from you! You can reach me directly by sending an email using the form below.</p>
+      <form action="mailto:ns1978314@gmail.com" method="post" enctype="text/plain" style="margin-top: 20px;">
+        <input type="text" name="Name" placeholder="Your Name" required style="padding: 12px 15px; width: 100%; max-width: 400px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px;">
+        <br>
+        <input type="email" name="Email" placeholder="Your Email" required style="padding: 12px 15px; width: 100%; max-width: 400px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px;">
+        <br>
+        <textarea name="Message" placeholder="Your Message" rows="5" required style="padding: 12px 15px; width: 100%; max-width: 400px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px;"></textarea>
+        <br>
+        <button type="submit">Send Email</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="text">
+        <span>Created By Nitin Sharma | © 2025 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script>
+  
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  const menu = document.querySelector(".menu");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  // Open menu
+  menuBtn.onclick = () => {
+    menu.classList.add("active");
+    cancelBtn.style.display = "block";
+    menuBtn.style.display = "none";
+  };
+
+  // Close menu
+  cancelBtn.onclick = () => {
+    menu.classList.remove("active");
+    cancelBtn.style.display = "none";
+    menuBtn.style.display = "block";
+  };
+
+  // Auto close menu on nav click
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("active");
+      cancelBtn.style.display = "none";
+      menuBtn.style.display = "block";
+    });
+  });
+
+  // Sticky navbar
+  window.addEventListener("scroll", () => {
+    document.querySelector("nav").classList.toggle("sticky", window.scrollY > 100);
+  });
+</script>
+
+
+
+  </body>
+</html>
