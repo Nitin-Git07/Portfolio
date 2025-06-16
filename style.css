@@ -154,7 +154,7 @@ nav.sticky .cancel-btn {
 .home {
   height: 90vh;
   width: 100%;
-  background: url("971.jpg") no-repeat center center / cover fixed;
+  background: url("assests/971.jpg") no-repeat center center / cover fixed;
   display: flex;
   justify-content: center;
   align-items: center;
